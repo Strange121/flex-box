@@ -1,0 +1,282 @@
+@font-face {
+    font-family: italic;
+    src: url('../fonts/emotional-rescue-font.zip');
+  }
+  @font-face {
+    font-family: italics;
+    src: url('../fonts/Darlothes\ Grunge.otf');
+  }
+body{
+    overflow-x: hidden;
+}
+header .main-row{
+    background-color: black;
+    padding: 10px 0;
+    align-items: center;
+
+    
+}
+header .img-log{
+    width: 77px;
+}
+
+.row .anc{
+    text-decoration: none;
+    color: white;
+}
+
+header li{
+    display: inline-block;
+    font-family: italic;
+    font-size: 20px;
+   margin-right: 14px;
+}
+header ul{
+    margin: 0;
+}
+header .title {
+    margin: 0;
+    display: inline-block;
+    color: white;
+    font-family: italics;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 20px;
+  
+}
+header .anc:hover{
+    color: #FFFC8F;
+}
+.pubg .col-12{
+    padding: 0;
+}
+.chracter .title{
+    font-size: 40px;
+    font-family: italics;
+    color: black;
+    text-align: center;
+}
+.chracter {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.chracter{
+    background-color: darkslategray;
+}
+.chracter h5 {
+    font-family: italics;
+    color: #F8F2B1;
+    margin: 0;
+}
+.chracter .caption {
+    font-size: 15px;
+    color: darkgray;
+    margin: 0;
+}
+
+.chracter .box-rad {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    flex-direction: column;
+}
+.chracter .img-rad{
+    border-radius: 10px;
+}
+
+.chracter .img-rad1{
+    height: 290px;
+}
+
+.map .main-row {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.map h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: italic;
+    color: black;
+    margin: 0;
+}
+.map .m-row{
+    margin-top: 20px;
+
+}
+.map .title{
+    text-align: center;
+    font-size: 17px;
+
+}
+
+
+.survivor .main-row {
+    background-image: url(../images/391e088.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0 0 220px 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.survivor {
+    background-color: black;
+    padding-top: 100px;
+   
+}
+.survivor .box {
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+}
+.survivor img {
+    width: 150px;
+}
+.survivor h5{
+    margin: 0;
+    color: black;
+}
+footer{
+    background-color: black;
+}
+footer .box{
+    text-align: center;
+}
+.map .lb-style{
+    font-family: italic;
+    color: white;
+    font-size: 20px;
+}
+.map .box-rgb {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+
+.map .map-box {
+    padding: 0;
+    background-image: url(../images/map-pubg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer .img-logo{
+    width: 200px;
+    padding-bottom: 40px;
+
+}
+footer{
+    background-image: url(../images/fuff.png);
+    padding: 40px 0;
+}
+
+footer li{
+    list-style: none;
+    text-align: left;
+    padding-right: 15px;
+    display: inline-block;
+}
+footer .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    position: relative;
+}
+footer a{
+     text-decoration: none;
+     color: white;
+     font-family: italic;
+}
+footer p{
+   color: gray;
+}
+footer .box1{
+    text-align: center;
+}
+
+footer a:hover{
+    color: #F8F4BF;
+}
+footer .img-pad{
+    padding-top: 30px;
+    width: 180px;
+}
+header .img-h{
+    width: 77px;
+}
+
+
+
+@media (max-width: 767px){
+
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    header .img-log {
+        width: 56px;
+    }
+    header .title {
+        margin: 0;
+        display: inline-block;
+        color: white;
+        font-family: italics;
+        text-transform: uppercase;
+        font-size: 27px;
+        padding-left: 16px;
+    }
+    
+header li {
+    display: inline-block;
+    font-family: italic;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+
+header .img-h {
+    width: 26px;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.map .map-box {
+    padding: 0;
+    background-image: url(../images/map-pubg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 51vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.map .lb-style {
+    font-family: italic;
+    color: white;
+    font-size: 15px;
+}
+    
+}
